@@ -1,0 +1,1 @@
+const myStr = "FirstLine \n    \\SecondLine \nThirdLine" ; // Change this line
