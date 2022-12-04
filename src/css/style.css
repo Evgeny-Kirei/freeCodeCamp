@@ -1,7 +1,43 @@
-.form-group {
-    
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--color-white);
+    background-color: aqua;
 }
+form {
+    background: #1b1b32;
+    padding: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 720px;
+    margin: 50px auto;
+    width: 100%;
+}
+.form-group {
+    color: antiquewhite;
+    
+    margin: 0 auto;
+
+}
+
 .form-control {
+    
+    width: 100%;
+    height: 30px;
+    
+    color: #495057;
+    background-color: #fff;
+    
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out,
+     box-shadow 0.15s ease-in-out; 
+}
+input{
     
 }
 .input-radio {
@@ -12,10 +48,24 @@
 .input-checkbox {
     
 }
+textarea{
+     
+}
 .input-textarea {
+    width: 99%;
+    min-height: 120px;
+    border: solid red 1px;
+    
     
 }
 .submit-button {
+    width: 100%;
+
+    padding: 15px;
+    background: #37af65;
+    color: inherit;
+    border-radius: 5px;
+    cursor: pointer;
 }
 label {
     display: flex;
